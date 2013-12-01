@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
-<extension version="3.1" type="template" client="site">
-	<name>protostar</name>
+<extension version="3.2" type="template" client="site">
+	<name>knights2014</name>
 	<version>1.0</version>
-	<creationDate>4/30/2012</creationDate>
-	<author>Kyle Ledbetter</author>
-	<authorEmail>admin@joomla.org</authorEmail>
-	<copyright>Copyright (C) 2005 - 2013 Open Source Matters, Inc. All rights reserved.</copyright>
+	<creationDate>12/01/2013</creationDate>
+	<author>Griffin Shreves III</author>
+	<authorEmail>griffin@sparetype.com</authorEmail>
+	<copyright>Copyright (C) 2013 SpareType All rights reserved.</copyright>
 	<description>TPL_PROTOSTAR_XML_DESCRIPTION</description>
 	<files>
 		<filename>component.php</filename>
@@ -91,7 +91,7 @@
 				<field name="fluidContainer"
 					type="radio"
 					class="btn-group btn-group-yesno"
-					default="0"
+					default="1"
 					label="TPL_PROTOSTAR_FLUID_LABEL"
 					description="TPL_PROTOSTAR_FLUID_DESC"
 				>
