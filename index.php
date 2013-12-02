@@ -143,9 +143,8 @@ else
 
 	<!-- Body -->
 	<div class="body">
-		<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : '');?>">
-			<!-- Header -->
-			<header class="header" role="banner">
+        <!-- Header -->
+        <header class="header" role="banner">
 				<div class="header-inner clearfix">
 					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>">
 						<?php echo $logo;?> <?php if ($this->params->get('sitedescription')) { echo '<div class="site-description">'. htmlspecialchars($this->params->get('sitedescription')) .'</div>'; } ?>
@@ -154,7 +153,10 @@ else
 						<jdoc:include type="modules" name="position-0" style="none" />
 					</div>
 				</div>
-			</header>
+	    </header>
+        
+		<div class="container<?php echo ($params->get('fluidContainer') ? '-fluid' : '');?>">
+			<!-- Navigation -->
 			<?php if ($this->countModules('position-1')) : ?>
 			<nav class="navigation" role="navigation">
 				<jdoc:include type="modules" name="position-1" style="none" />

@@ -52,9 +52,9 @@
 					label="Template Colour"
 					description="Choose an overall colour for the site template. If left blank the Default (#005195) is used." />
 
-				<field name="templateBackgroundColor" class="" type="color" default="#F4F6F7"
+				<field name="templateBackgroundColor" class="" type="color" default="#ded1a6"
 					label="Background Color"
-					description="Choose a background colour for static layouts. If left blank the Default (#F4F6F7) is used." />
+					description="Choose a background colour for static layouts. If left blank the Default (#ded1a6) is used." />
 
 				<field name="logoFile" class="" type="media" default=""
 					label="Logo"
