@@ -51,7 +51,7 @@
 	<config>
 		<fields name="params">
 			<fieldset name="advanced">
-				<field name="templateColor" class="" type="color" default="#08C"
+				<field name="templateColor" class="" type="color" default="#005195"
 					label="TPL_PROTOSTAR_COLOR_LABEL"
 					description="TPL_PROTOSTAR_COLOR_DESC" />
 
@@ -84,14 +84,14 @@
 					<option value="1">JYES</option>
 				</field>
 
-				<field name="googleFontName" class="" type="text" default="Open+Sans"
+				<field name="googleFontName" class="" type="text" default="Source+Sans+Pro"
 					label="TPL_PROTOSTAR_FONT_NAME_LABEL"
 					description="TPL_PROTOSTAR_FONT_NAME_DESC" />
 
 				<field name="fluidContainer"
 					type="radio"
 					class="btn-group btn-group-yesno"
-					default="1"
+					default="0"
 					label="TPL_PROTOSTAR_FLUID_LABEL"
 					description="TPL_PROTOSTAR_FLUID_DESC"
 				>
