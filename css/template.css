@@ -6922,7 +6922,7 @@ div.modal.fade.in {
 body.site {
 	border-top: 3px solid #0088cc;
 	padding: 20px;
-	background-color: #f4f6f7;
+    background: url("../images/background.jpg") repeat scroll 0 0;
 }
 body.site.fluid {
 	background-color: #ffffff;
