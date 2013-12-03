@@ -6939,6 +6939,8 @@ body.site.fluid {
 	font-weight: bold;
 }
 .brand {
+    display: block;
+    text-align: center;    
 	color: #004466;
 	-webkit-transition: color .5s linear;
 	-moz-transition: color .5s linear;
@@ -6950,7 +6952,7 @@ body.site.fluid {
 	text-decoration: none;
 }
 .header {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .header .finder {
 	margin-top: 14px;

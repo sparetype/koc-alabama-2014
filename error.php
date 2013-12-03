@@ -133,7 +133,7 @@ else
 			<!-- Header -->
 			<div class="header">
 				<div class="header-inner clearfix">
-					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>">
+					<a class="brand" href="<?php echo $this->baseurl; ?>">
 						<img src="<?php echo $logo;?>" alt="<?php echo $sitename; ?>" />
 					</a>
 					<div class="header-search pull-right">
