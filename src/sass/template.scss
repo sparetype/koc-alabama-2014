@@ -1,3 +1,12 @@
+/* =Variables
+-------------------------------------------------------------- */
+$brand-color1: #1f3955; /* Dark blue */
+$brand-color2: #0058a8; /* Shield blue */
+$brand-color3: #febf10; /* Shield yellow-orange */
+$brand-color4: #ed174b; /* Shield red */
+$brand-color5: #ffffff; /* White */
+
+
 // Import normalize
 @import url("//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css");
 
@@ -5,3 +14,7 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,900,300italic,600italic);
 
 // Import typography
+@import "typography";
+
+// Import structure
+@import "structure";

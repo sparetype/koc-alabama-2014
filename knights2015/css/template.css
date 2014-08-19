@@ -1,0 +1,31 @@
+/* =Variables
+-------------------------------------------------------------- */
+/* Dark blue */
+/* Shield blue */
+/* Shield yellow-orange */
+/* Shield red */
+/* White */
+@import url("//cdnjs.cloudflare.com/ajax/libs/normalize/2.1.3/normalize.min.css");
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,900,300italic,600italic);
+html {
+  font-size: 100%; }
+
+body {
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 36px;
+  line-height: 2.25rem;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #1f3955;
+  background-color: white; }
+
+/* =Structure
+-------------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+html {
+  overflow-y: scroll; }

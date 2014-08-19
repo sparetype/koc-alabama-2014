@@ -1,7 +1,34 @@
+
+// =Variables for typography expressed in pixels
+$title-text: 58;
+$headline-text: 36;
+$subhead-text: 28;
+$primary-text: 22;
+$secondary-text: 17;
+$title-leading: 60;
+$headline-leading: 44;
+$primary-leading: 36;
+$secondary-leading: 27;
+
+
+// =Font size and line height mixin for pixels and rems
+@mixin font-size($fontsize: $primary-text, $lineheight: $primary-leading) {
+font-size: $fontsize + px;
+font-size: ($fontsize / 16) + rem;
+line-height: $lineheight + px ;
+line-height: ($lineheight /16) + rem ;
+}
+
+
+
+
+html {
+	font-size: 100%;
+}
+
 body {
+@include font-size($primary-text,$primary-leading);
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	line-height: 26px;
-	color: #333;
-	background-color: #fff;
+	color: $brand-color1;
+	background-color: $brand-color5;
 }
