@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.3" type="template">
+        <name>knights2015</name>
+        <creationDate>2014-08-19</creationDate>
+        <author>Griffin Shreves III</author>
+        <authorEmail>griffin@sparetype.com</authorEmail>
+        <authorUrl>http://www.sparetype.com</authorUrl>
+        <copyright>SpareType 2014</copyright>
+        <license>GNU/GPL</license>
+        <version>1.0.0</version>
+        <description>2015 redesign of kofc-alabama.org for Joomla 3.3</description>
+        <files>
+                <filename>index.php</filename>
+                <filename>templateDetails.xml</filename>
+				<filename>template_preview.png</filename>
+				<filename>template_thumbnail.png</filename>
+                <folder>css</folder>
+				<folder>images</folder>
+        </files>
+        <positions>
+                <position>header</position>
+                <position>breadcrumb</position>
+                <position>content-1</position>
+                <position>content-2</position>
+                <position>left</position>
+                <position>right</position>
+                <position>footer</position>
+        </positions>
+</extension>
