@@ -64,7 +64,7 @@ ul.nav-collapse {
 }
 
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 700px) {
   .js .nav-collapse {
     position: relative;
   }
@@ -74,4 +74,15 @@ ul.nav-collapse {
   .nav-toggle {
     display: none;
   }
+  .nav-collapse li {
+  display: inline;
+}
+.nav-collapse.closed a {
+  background: none repeat scroll 0 0 $brand-color2;
+  color: $brand-color5;
+  display: inline-block;
+  max-width: 25%;
+  padding: 3%;
+  text-align: center;
+}
 }

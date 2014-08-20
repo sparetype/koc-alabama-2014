@@ -49,10 +49,11 @@ body {
 @media screen and (min-width: 700px) {
 
 .container {
+	padding: 2.5%;
 	margin: 0;
 	@include clearfix;
 }
-.content { width: 75%; float:left; }
-.right-sidebar { width: 25%; margin: 0 0 0 5%; float:left; }
+.content { width: 60%; float:left; }
+.right-sidebar { width: 35%; margin: 0 0 0 5%; float:left; }
 
 }
