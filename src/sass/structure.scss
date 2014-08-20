@@ -46,8 +46,9 @@ body {
 
 .container {
 	margin: 0;
+	@include clearfix;
 }
 .content { width: 75%; float:left; }
-.right-sidebar { width: 25%; float:left; @include clearfix; }
+.right-sidebar { width: 25%; float:left; }
 
 }
