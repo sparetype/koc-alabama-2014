@@ -1,13 +1,13 @@
 
 // =Variables for typography expressed in pixels
-$title-text: 58;
-$headline-text: 36;
-$subhead-text: 28;
-$primary-text: 22;
-$secondary-text: 17;
+$title-text: 47;
+$headline-text: 29;
+$subhead-text: 23;
+$primary-text: 18;
+$secondary-text: 14;
 $title-leading: 60;
 $headline-leading: 44;
-$primary-leading: 36;
+$primary-leading: 27;
 $secondary-leading: 27;
 
 
@@ -28,7 +28,17 @@ html {
 
 body {
 @include font-size($primary-text,$primary-leading);
-	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Droid Serif", Georgia, serif;
 	color: $brand-color1;
 	background-color: $brand-color5;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: "Source Sans Pro", sans-serif; }
+
+h1 {
+@include font-size($title-text,$title-leading);
+}
+
+h3 {
+@include font-size($headline-text,$headline-leading);
 }
