@@ -30,7 +30,6 @@ body {
 @include font-size($primary-text,$primary-leading);
 	font-family: "Droid Serif", Georgia, serif;
 	color: $brand-color1;
-	background-color: $brand-color5;
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Source Sans Pro", sans-serif; }
@@ -41,4 +40,10 @@ h1 {
 
 h3 {
 @include font-size($headline-text,$headline-leading);
+}
+
+
+
+a:link {
+    color: $brand-color2;
 }

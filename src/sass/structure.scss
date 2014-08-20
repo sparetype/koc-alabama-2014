@@ -11,3 +11,30 @@ box-sizing: border-box;
 html {
 overflow-y: scroll;
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	background: url("../images/background.jpg") repeat scroll 0 0;
+}
+
+.container {
+	padding: 5%;
+	margin: 5%;
+	background: $brand-color5;
+}
+
+.logo {
+  display: inline-block;
+  margin: 5% 0 0 5%;
+}
+
+@media screen and (min-width: 700px) {
+
+.content { width: 75%; }
+.right-sidebar { width: 25%; }
+
+}

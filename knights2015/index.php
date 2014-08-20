@@ -40,5 +40,12 @@
 	<footer class="footer">
 	<jdoc:include type="modules" name="footer" />
 	</footer>
+	
+	<script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/scripts/production.min.js" type="text/javascript"></script>
+
+	<script>
+	var nav = responsiveNav(".nav-collapse");
+	</script>
+
 </body>
 </html>
