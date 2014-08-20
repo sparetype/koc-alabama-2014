@@ -13,6 +13,7 @@
 	<jdoc:include type="message" />
 
 	<header class="header">
+	<a class="logo" href="<?php echo $this->baseurl; ?>"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/koc_logo_125x125.gif" /></a>
 	<jdoc:include type="modules" name="header" />
 	</header>
 	
