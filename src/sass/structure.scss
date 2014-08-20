@@ -32,9 +32,22 @@ body {
   margin: 5% 0 0 5%;
 }
 
+.right-sidebar ul {
+  background: none repeat scroll 0 0 #9ca5a9;
+  margin: 0;
+  padding: 5% 5% 5% 25px;
+}
+
+.right-sidebar li {
+  margin: 0 0 5%;
+}
+
 @media screen and (min-width: 700px) {
 
-.content { width: 75%; }
-.right-sidebar { width: 25%; }
+.container {
+	margin: 0;
+}
+.content { width: 75%; float:left; }
+.right-sidebar { width: 25%; float:left; @include clearfix; }
 
 }
