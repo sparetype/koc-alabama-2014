@@ -41,6 +41,12 @@ body {
   max-width: 330px;
 }
 
+.left-sidebar {
+  column-count: 1;
+  margin: 36px auto;
+  max-width: 960px;
+}
+
 .logo {
   display: inline-block;
   margin: 5% 0 0 5%;
@@ -64,8 +70,35 @@ body {
   margin: 0 0 5%;
 }
 
-.right-sidebar .search {
+.right-sidebar .Search {
   display: none;
+}
+
+.left-sidebar {
+	@include clearfix;
+}
+
+.left-sidebar .module {
+  float: left;
+}
+
+.left-sidebar .module-title {
+  background: $brand-color2;
+  color: $brand-color5;
+  margin: 0;
+  padding: 3% 0 4% 25px;
+}
+
+.left-sidebar ul {
+  border: 2px solid $brand-color6;
+  background: $brand-color7;
+  margin: 0;
+  padding: 5% 5% 5% 25px;
+  list-style: none;
+}
+
+.left-sidebar li {
+  margin: 0 0 5%;
 }
 
 @media screen and (min-width: 700px) {
@@ -96,7 +129,7 @@ body {
   float:left;
 }
 
-.right-sidebar .search {
+.right-sidebar .Search {
   display: block;
   margin-bottom: 42px;
 }
@@ -118,5 +151,8 @@ body {
   margin: 0 auto;
 }
 
+.left-sidebar {
+  column-count: 3;
+}
 
 }

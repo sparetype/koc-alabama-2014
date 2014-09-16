@@ -25,6 +25,11 @@ module.exports = function(grunt) {
                 }
             }
         },
+		autoprefixer: {
+			build: {
+				src: 'knights2015/css/template.css'
+			}
+		},
         watch: {
             css: {
                 files: ['src/sass/*.scss'],
@@ -41,6 +46,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-autoprefixer');
     // Default tasks.
-    grunt.registerTask('default', ['concat', 'uglify', 'sass']);
+    grunt.registerTask('default', ['concat', 'uglify', 'sass', 'autoprefixer']);
+	grunt.registerTask('css', ['sass', 'autoprefixer']);
 };
