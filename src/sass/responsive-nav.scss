@@ -86,3 +86,11 @@ ul.nav-collapse {
   text-align: center;
 }
 }
+
+@media screen and (min-width: 1152px) {
+
+.nav-collapse.closed a {
+  padding: 1.5%;
+}
+
+}

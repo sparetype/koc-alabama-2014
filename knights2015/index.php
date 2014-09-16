@@ -28,13 +28,13 @@
 	</div>
 
 	<div class="right-sidebar">
-	<jdoc:include type="modules" name="right" />
+	<jdoc:include type="modules" name="right" style="custom" />
 	</div>
 	
 	</div> <!-- end container -->
 
 	<div class="left-sidebar">
-	<jdoc:include type="modules" name="left" />
+	<jdoc:include type="modules" name="left" style="custom" />
 	</div>
 	
 	<footer class="footer">

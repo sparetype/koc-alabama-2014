@@ -97,3 +97,18 @@ body {
   display: none;
 }
 }
+
+@media screen and (min-width: 1152px) {
+
+.logo {
+  margin: 1% 0 1% 5%;
+}
+
+.breadcrumb,
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+}
