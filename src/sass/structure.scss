@@ -17,6 +17,8 @@ img {
 	height: auto;
 }
 
+.element-invisible { display: none; }
+
 body {
 	background: url("../images/background.jpg") repeat scroll 0 0;
 }
@@ -27,8 +29,16 @@ body {
 	background: $brand-color5;
 }
 
+.breadcrumb {
+	margin: 5%;
+}
+
 .content {
 	max-width: 550px;
+}
+
+.right-sidebar {
+  max-width: 330px;
 }
 
 .logo {
@@ -46,14 +56,44 @@ body {
   margin: 0 0 5%;
 }
 
+.right-sidebar .search {
+  display: none;
+}
+
 @media screen and (min-width: 700px) {
+
+.logo {
+  margin: 2.5% 0 2.5% 5%;
+}
 
 .container {
 	padding: 2.5%;
 	margin: 0;
 	@include clearfix;
 }
-.content { width: 60%; float:left; }
-.right-sidebar { width: 35%; margin: 0 0 0 5%; float:left; }
 
+.breadcrumb {
+	margin: 0;
+	@include clearfix;
+}
+
+.content {
+  width: 60%;
+  float:left;
+}
+
+.right-sidebar {
+  width: 35%;
+  margin: 0 0 0 5%;
+  float:left;
+}
+
+.right-sidebar .search {
+  display: block;
+  margin-bottom: 42px;
+}
+
+.breadcrumb .search {
+  display: none;
+}
 }

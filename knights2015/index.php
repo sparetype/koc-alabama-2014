@@ -16,12 +16,12 @@
 	<a class="logo" href="<?php echo $this->baseurl; ?>"><img src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/koc_logo_125x125.gif" /></a>
 	<jdoc:include type="modules" name="header" />
 	</header>
-	
-	<div class="container">
-	
+		
 	<div class="breadcrumb" role="menu">
 	<jdoc:include type="modules" name="breadcrumb" />
 	</div>
+	
+	<div class="container">
 
 	<div class="content">
 	<jdoc:include type="component" />
