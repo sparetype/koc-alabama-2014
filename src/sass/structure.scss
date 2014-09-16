@@ -34,7 +34,7 @@ body {
 }
 
 .content {
-	max-width: 550px;
+  max-width: 550px;
 }
 
 .right-sidebar {
@@ -43,7 +43,7 @@ body {
 
 .left-sidebar {
   column-count: 1;
-  margin: 36px auto;
+  margin: 36px 5%;
   max-width: 960px;
 }
 
@@ -74,12 +74,9 @@ body {
   display: none;
 }
 
-.left-sidebar {
-	@include clearfix;
-}
-
 .left-sidebar .module {
-  float: left;
+  display: inline-block;
+  width: 100%;
 }
 
 .left-sidebar .module-title {
@@ -90,7 +87,7 @@ body {
 }
 
 .left-sidebar ul {
-  border: 2px solid $brand-color6;
+  border: 2px solid $brand-color2;
   background: $brand-color7;
   margin: 0;
   padding: 5% 5% 5% 25px;
@@ -134,8 +131,17 @@ body {
   margin-bottom: 42px;
 }
 
+.right-sidebar .Search .module-title {
+  display: none;
+}
+
 .breadcrumb .search {
   display: none;
+}
+
+.left-sidebar {
+  column-count: 2;
+  margin: 36px auto;
 }
 }
 
